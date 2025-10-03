@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- Logger node -->
+  <node pkg="reseq" exec="temperature_logger" name="temperature_logger" output="screen"/>
+
+  <!-- Sensor node -->
+  <node pkg="reseq" exec="temperature_sensor" name="temperature_sensor" output="screen"/>
+</launch>
