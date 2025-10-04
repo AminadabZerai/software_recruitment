@@ -1,3 +1,4 @@
+#include "fakeArduino.hpp"
 
 
 const uint8_t MOVE_INSTRUCTION = 0x1E; // Instruction code to move the servo to a specific position from the image
